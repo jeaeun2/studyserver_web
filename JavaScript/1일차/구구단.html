@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>구구단</title>
+    <script>
+        function mul(a,b){
+            var result;
+            result=a*b;
+            return result;
+        }
+    </script>
+</head>
+<body>
+    <h1>구구단 출력함수 만들기</h1>
+    <hr>
+    <script>
+        let num =prompt("몇 단 ?")
+
+        for(var i=1; i<=9; i++){
+            document.write(parseInt(num)+" x "+ i+ " = "+mul(parseInt(num),i)+"<br>");
+        }
+    </script>
+</body>
+</html>
